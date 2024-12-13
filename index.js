@@ -1,18 +1,18 @@
 let testimonial_data = [
     {
         name:"Tom & Jerry",
-        image:"../images/Tom.jpg",
+        image:"./Tom.JPG",
         text_content: "Tom and Jerry is a classic American animated series created in 1940 by William Hanna and Joseph Barbera."
     },
     {
         name:"Chotta Bheem",
-        image:"../images/Chotta Bheem.jpg",
+        image:"./Chotta Bheem.JPG",
         text_content: "Chhota Bheem is a popular Indian animated television series created by Green Gold Animations."
 
     },
     {
         name:"Doraemon",
-        image:"../images/dora.jpg",
+        image:"./dora.JPG",
         text_content: "Doraemon is a beloved Japanese manga and anime series created by Fujiko F. Fujio in 1969."
     }
 ]
