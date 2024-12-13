@@ -12,7 +12,7 @@ let testimonial_data = [
     },
     {
         name:"Doraemon",
-        image:"../images/dora.png",
+        image:"../dora.jpg",
         text_content: "Doraemon is a beloved Japanese manga and anime series created by Fujiko F. Fujio in 1969."
     }
 ]
