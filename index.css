@@ -41,3 +41,35 @@ body{
     font-size: 20px;
     text-align: center;
 }
+
+/* Media Query for Screens with a Max Width of 768px */
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        padding: 20px;
+        background-position: center;
+    }
+    .container_block {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+    .container_image {
+        top: -40px;
+        left: calc(50% - 50px); /* Centers the image horizontally */
+        width: 80px;
+        height: 80px;
+    }
+    .container_content {
+        font-size: 18px;
+        margin-top: 50px;
+        padding: 10px;
+        text-align: center;
+    }
+    .container_name {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
